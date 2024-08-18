@@ -24,16 +24,13 @@ public class GFG {
 			+ "Guess the number"
 			+ " within 5 trials.");
 
-		// Iterate over K Trials
 		for (i = 0; i < K; i++) {
 
 			System.out.println(
 				"Guess the number:");
 
-			// Take input for guessing
 			guess = sc.nextInt();
 
-			// If the number is guessed
 			if (number == guess) {
 				System.out.println(
 					"Congratulations!"
@@ -64,12 +61,12 @@ public class GFG {
 		}
 	}
 
-	// Driver Code
+	
 	public static void
 	main(String arg[])
 	{
 
-		// Function Call
+		
 		guessingNumberGame();
 	}
 }
